@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web360</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css
+    " integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="navSection fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-md">
+      <div class="container">
+        <a href="#" class="navbar-brand"><img src="img/365-logo.png" alt="" style="height:4.5rem;"></a>
+        <button class="navbar-toggler navbar-toggler-right" 
+        type="button" data-toggle="collapse" data-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav bg-sm-dark">
+            <li class="nav-item ml-lg-4"><a class="nav-link text -light " href="#">Home</a></li>
+            <li class="nav-item ml-lg-4"><a class="nav-link text-light " href="#recent">Man</a></li>
+            <li class="nav-item ml-lg-4"><a class="nav-link text-light " href="#recent">Men</a></li>
+            <li class="nav-item ml-lg-4"><a class="nav-link text-light " href="#">Company</a></li>
+            <li class="nav-item ml-lg-4"><a class="nav-link text-light " href="#">Contact-Us</a></li>
+          </ul>
+          <div class="nav-icon mt-lg-4 ml-lg-5 pl-lg-5">
+            <ul>
+              <li><a href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+               <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+             </svg></a></li>
+             <li><a href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+             </svg></a></li>
+            </ul>
+         </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+ <section id="showCase" >
+   <div id="mycarousel" class="carousel slide" data-ride="carousel">
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <div class="carousel-img-1"></div>
+            <div class="carousel-caption">
+              <h2 class="display-4 mb-5 pb-lg-5">ORDER NOW</h2>
+                <a href="#explore" class="button btn">Explore</a>
+            </div> 
+       </div>
+       <div class="carousel-item">
+        <div class="carousel-img-2"></div>
+           <div class="carousel-caption">
+             <h2 class="display-4 mb-5 pb-lg-5">RECENT COLLECTION</h2>
+               <a href="#recent" class="button btn">RECENT</a>
+           </div> 
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-img-3"></div>
+           <div class="carousel-caption">
+             <h2 class="display-4 mb-5 pb-lg-5">LIMIT STOCK</h2>
+               <a href="#new" class="button btn">New-Collection</a>
+           </div> 
+      </div>
+     </div> 
+      <a href="#mycarousel" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      <a href="#mycarousel" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+   </div>
+ </section>
+<!---Sample-Section-start---------->
+ <section class="display-sec" id="new">
+    <div class="container mt-5 mb-4">
+      <div class="row">
+        <div class="col-lg-3 text-center-sm" data-aos="fade-right">
+          <div class="all pt-lg-5 pb-5 mt-lg-5">
+           <h3>New Arrivals <span class="Next"></span></h3>
+           <p>Unique and beautiful item.handpicked just for you.</p>
+           <h3><span class="Next"></span>show all</h3>
+          </div>
+         </div>
+   <div class="col-lg-3 mt-2 p-1">
+            <div class="card">
+              <img src="img/sw-3.jpg" class="card-img-top" alt="...">
+              <h4 class="card-text">New</h3>
+            </div> 
+            <div class="card-footer">      
+            <ul>
+              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+             </svg></li>
+              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+             </svg></li>
+              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+             </svg></li>
+             <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg></li>
+           </ul>
+            <div class="title ">Winter Cloth</div> 
+             <div class="price">40$</div> 
+        </div>   
+  </div>
+  <div class="col-lg-3 mt-2 p-1" >
+    <div class="card">
+      <img src="img/p4.jpg" class="card-img-top" alt="...">
+      <h4 class="card-text">New</h3>
+    </div> 
+    <div class="card-footer">      
+    <ul>
+      <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+       <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+     </svg></li>
+      <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+       <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+     </svg></li>
+      <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+       <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+     </svg></li>
+   </ul>
+    <div class="title">Winter Cloth</div> 
+     <div class="price">40$</div> 
+</div>   
+</div>
+<div class="col-lg-3 mt-2 p-1">
+  <div class="card">
+    <img src="img/p5.jpg" class="card-img-top" alt="...">
+    <h4 class="card-text">New</h3>
+  </div> 
+  <div class="card-footer">      
+  <ul>
+    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+    </svg></li>
+    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+     <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+   </svg></li>
+    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+     <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+   </svg></li>
+    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+     <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+   </svg></li>
+ </ul>
+  <div class="title">Winter Cloth</div> 
+   <div class="price">50$</div> 
+</div>   
+</div>
+     </div>
+ </section>
+ <!---Sample-Section-end---------->
+ <!---man-women-Section-start---------->
+ <section class="howto-sec" id="recent">
+   <div class="container">
+     <div class="row pt-lg-5 pb-lg-4">
+       <div class="col-lg-3 pr-lg-0 p-sm-0 mb-sm-2 " data-aos="fade-right">
+        <div class="card card-2">
+          <img src="img/sw-2.jpg" class="card-img-top" alt="...">
+          <h3 class="card-text women-text">Women</h3>
+       </div>
+     </div>
+            <div class="col-lg-3 pr-lg-0 p-sm-0 mb-sm-2">
+              <div class="card card-2" style="border-radius: 0;">
+                <img src="img/viewAll/men-1.jpg" class="card-img-top" alt="...">
+            </div>
+            </div> 
+    
+            <div class="col-lg-3 p-sm-0 mb-sm-2">
+               <div class="h-content bg-dark p-5">
+                <h4 class="video-card text-light mb-sm-4">How do we make your clothes?</h4>
+                <p class="text-light">Discover the kingdom of cotton</p>
+                 <button type="button" class="btn-video text-center" style="border-radius: 0;margin-top: 1.8rem;" > 
+                   <a href=""><span class="icon" style="margin:auto 2px;color:#fff; padding:0 .2rem"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                   </svg></span><div class="b-text" style="display: inline-block;color:#001;padding:.5rem 2rem;background:#fff;"> Watcth Story</button></a>
+               </div>
+            </div>
+
+            <div class="col-lg-3 pr-lg-0 p-sm-0 mb-sm-2 " data-aos="fade-left">
+              <div class="card card-2">
+                <img src="img/viewAll/mam.jpg" class="card-img-top" alt="...">
+                <h3 class="card-text women-text">Men</h3>
+             </div>
+           </div>
+   </div>
+   </div>
+ </section>
+  <!---man-women-Section-End---------->
+  <!---Testimonial-Section-start---------->
+  <section class="testimonial-sec p-sm-5 p-lg-0">
+    <div class="slider mt-5">
+       <div class="item d-lg-flex bg-dark">
+        <div class="img col-lg-6 col-sm-12 p-0" data-aos="fade-up">
+          <img src="img/viewAll/men-1.jpg" alt="" style="width:100%;height: 30rem;">
+        </div>
+        <div class="comment col-lg-6 col-md-12 bg-lg-danger text-light p-5" data-aos="fade-down">
+                <div class="all-text ml-lg-5">
+                  <h4 class="mt-lg-4"><span class="Next" style="border-top:2px solid #fff;width:2.5rem"></span> TESTIMONIALS</h4>
+                  <p class="mt-4 mt-sm-5" style="width:70%; color:rgb(200, 200, 200);">
+                    It's not the frist time I buy clothes from you and every 
+                    I fall in love with more and more with it! The cloth witch the clothes are made
+                    is incredibly pleasent and very comfortable.
+                    Thank's you!
+                  </p>
+                  <div class="clint d-flex pb-5">
+                   <div> <img src="img/viewAll/men-1.jpg" alt="" style="height: 4.4rem;width:4.5rem;border-radius: 50%;margin-top:2rem;float:left">
+                   </div>
+                   <h6 style="margin-top: 4rem; margin-left: 2rem;">
+                      <h6 class="name">Alexa Heri</h6>
+                  </div>
+                </div>
+        </div>
+       </div>
+
+       <div class="item d-lg-flex bg-dark">
+        <div class="img col-lg-6 col-sm-12 p-0" data-aos="fade-up">
+          <img src="img/me--2.jpg" alt="" style="width:100%;height: 30rem;">
+        </div>
+        <div class="comment col-lg-6 col-md-12 bg-lg-danger text-light p-5" data-aos="fade-down">
+                <div class="all-text ml-lg-5">
+                  <h4 class="mt-lg-4"><span class="Next" style="border-top:2px solid #fff;width:2.5rem"></span> TESTIMONIALS</h4>
+                  <p class="mt-4 mt-sm-5" style="width:70%; color:rgb(200, 200, 200);">
+                    It's not the frist time I buy clothes from you and every 
+                    I fall in love with more and more with it! The cloth witch the clothes are made
+                    is incredibly pleasent and very comfortable.
+                    Thank's you!
+                  </p>
+                  <div class="clint d-flex pb-5">
+                   <div> <img src="img/me--2.jpg" alt="" style="height: 4.4rem;width:4.5rem;border-radius: 50%;margin-top:2rem;float:left">
+                   </div>
+                   <h6 style="margin-top: 4rem; margin-left: 2rem;">
+                      <h6 class="name">Alexa Heri</h6>
+                  </div>
+                </div>
+        </div>
+       </div>
+
+       <div class="item d-lg-flex bg-dark">
+        <div class="img col-lg-6 col-sm-12 p-0" data-aos="fade-up">
+          <img src="img/viewAll/men-2.jpg" alt="" style="width:100%;height: 30rem;">
+        </div>
+        <div class="comment col-lg-6 col-md-12 bg-lg-danger text-light p-5" data-aos="fade-down">
+                <div class="all-text ml-lg-5">
+                  <h4 class="mt-lg-4"><span class="Next" style="border-top:2px solid #fff;width:2.5rem"></span> TESTIMONIALS</h4>
+                  <p class="mt-4 mt-sm-5" style="width:70%; color:rgb(200, 200, 200);">
+                    It's not the frist time I buy clothes from you and every 
+                    I fall in love with more and more with it! The cloth witch the clothes are made
+                    is incredibly pleasent and very comfortable.
+                    Thank's you!
+                  </p>
+                  <div class="clint d-flex pb-5">
+                   <div> <img src="img/viewAll/men-2.jpg" alt="" style="height: 4.4rem;width:4.5rem;border-radius: 50%;margin-top:2rem;float:left">
+                   </div>
+                   <h6 style="margin-top: 4rem; margin-left: 2rem;">
+                      <h6 class="name">Alexa Heri</h6>
+                  </div>
+                </div>
+        </div>
+       </div>
+    </div>
+  </section>
+  <!---Testimonial-Section-End---------->
+  <!---Product-Section-start---------->
+  <section class="product-sec" id="explore">
+     <div class="container">
+       <div class="row">
+         <div class="col-12 text-center pb-4 pt-2">
+           <h5 data-aos="fade-right"></span><b>FEATURED PRODUCT</b></h5>
+           <h5 data-aos="fade-left"><span class="Next"></span> View All<span class="Next"></span></h5>
+        </div>
+              <div class="col-lg-3 p-1" data-aos="fade-up">
+                  <div class="card">
+                    <img src="img/viewAll/v-5.jpg" class="card-img-top" alt="...">
+                    <h4 class="card-text">New</h3>
+                  </div> 
+                  <div class="card-footer">      
+                  <ul>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                  </svg></li>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                  </svg></li>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                  </svg></li>
+                  <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                  </svg></li>
+                </ul>
+                  <div class="title ">Winter Cloth</div> 
+                  <div class="price">40$</div> 
+              </div>   
+           </div>
+
+            <div class="col-lg-3 p-1" data-aos="fade-up">
+            <div class="card">
+              <img src="img/viewAll/v-1.jpg" class="card-img-top" alt="...">
+              <h4 class="card-text">Sale</h3>
+            </div> 
+            <div class="card-footer">      
+            <ul>
+              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg></li>
+              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg></li>
+              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg></li>
+              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg></li>
+          </ul>
+            <div class="title ">Sweater & bag</div> 
+            <div class="price">40$</div> 
+        </div>   
+     </div>
+            <div class="col-lg-3 p-1" data-aos="fade-up">
+      <div class="card">
+        <img src="img/viewAll/v-3.jpg" class="card-img-top" alt="...">
+        <h4 class="card-text">Sale</h3>
+      </div> 
+      <div class="card-footer">      
+      <ul>
+        <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg></li>
+        <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+      </svg></li>
+        <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+      </svg></li>
+        <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+      </svg></li>
+    </ul>
+      <div class="title ">Women T-shirt</div> 
+      <div class="price">35$</div> 
+  </div>   
+</div>             
+            <div class="col-lg-3 p-1" data-aos="fade-up">
+  <div class="card">
+    <img src="img/viewAll/c-1.jpg" class="card-img-top" alt="...">
+    <h4 class="card-text">New</h3>
+  </div> 
+  <div class="card-footer">      
+  <ul>
+    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+    </svg></li>
+    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+  </svg></li>
+    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+  </svg></li>
+    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+  </svg></li>
+</ul>
+  <div class="title ">Orien Jeans</div> 
+  <div class="price">80$</div> 
+</div>   
+</div>
+    </div>
+       <hr class="mt-5">
+     </div>
+  </section>
+   <!---Product-Section-End---------->
+    <!---information-Section-Start---------->
+    <section class="information py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 text-center" data-aos="fade-up">
+            <div class="icon-world">
+              <i class="fas fa-tshirt" style="font-size: 5rem;"></i>
+            </div>
+            <h6 class="before-1"><b>100% COTTON</b></h6>
+             <p style="text-align: center; letter-spacing: 1px;width:95%">
+               We well delever you new stuff in a few days to anyhere in
+               the world! Free at charge at an order of 300$.
+             </p>
+          </div>
+          <div class="col-lg-4 text-center" data-aos="fade-up">
+            <div class="icon-world">
+              <i class="fas fa-globe-americas" style="font-size: 5rem;"></i>
+            </div>
+            <h6 class="before-1"><b>WORLDWIDE SHOPPING</b></h6>
+             <p style="text-align: center; letter-spacing: 1px;width:95%">
+               We well delever you new stuff in a few days to anyhere in
+               the world! Free at charge at an order of 300$.
+             </p>
+          </div>
+          <div class="col-lg-4 text-center" data-aos="fade-up">
+            <div class="icon-world">
+              <i class="fas fa-recycle" style="font-size: 5rem;"></i>
+            </div>
+            <h6 class="before-1"><b>RECYCLE PROGRAM</b></h6>
+             <p style="text-align: center;width:95%">
+               We well delever you new stuff in a few days to anyhere in
+               the world! Free at charge at an order of 300$.
+             </p>
+          </div>    
+        </div>
+      </div>
+    </section>
+    <!---information-Section-End---------->
+ <!---link-Section-Start---------->
+   <section class="link-sec bg-dark py-4" data-aos="fade-up">
+     <div class="container">
+       <div class="row">
+         <div class="col-xs-6 col-lg-2 col-md-4 col-sm-4  link">
+                <h6 class="text-light mt-3">COMPANY</h6>
+             <ul>
+               <li><a class="text-light" href="#">Shop</a></li>
+               <li><a class="text-light" href="#">About</a></li>
+               <li><a class="text-light" href="#">Contact</a></li>
+               <li><a class="text-light" href="#">Collection</a></li>
+               <li><a class="text-light" href="#">Site map</a></li>
+               <li><a class="text-light" href="#">FAQ'S</a></li>
+             </ul>
+         </div>
+         <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 link">
+          <h6 class="text-light mt-3">SUPPORT</h6>
+       <ul>
+         <li><a class="text-light" href="#">Teams</a></li>
+         <li><a class="text-light" href="#">Privacy & Policy</a></li>
+         <li><a class="text-light" href="#">Buying Guid</a></li>
+         <li><a class="text-light" href="#">Return</a></li>
+         <li><a class="text-light" href="#">Search</a></li>
+         <li><a class="text-light" href="#">Delivery</a></li>
+       </ul>
+   </div>
+         <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 link">
+    <h6 class="text-light mt-3">COMPANY</h6>
+ <ul>
+   <li><a class="text-light" href="#">Instragram</a></li>
+   <li><a class="text-light" href="#">Facebook</a></li>
+   <li><a class="text-light" href="#">Twitter</a></li>
+   <li><a class="text-light" href="#">Linked in</a></li>
+   <li><a class="text-light" href="#">Youtube</a></li>
+   <li><a class="text-light" href="#">Telegram</a></li>
+ </ul>
+</div>
+         <div class="col-lg-3 col-md-6 col-sm-6 mt-sm-4 mt-lg-0 col-xs-12 link">
+        <h6 class="text-light mt-3">NEWS</h6>
+        <div class="pic d-flex pt-3">
+         <a href="#"> <img src="img/viewAll/mam.jpg" alt="" style="height:3rem;width:4rem"></a>
+         <div class="text">
+          <p class="text-light px-lg-3">We Are Open<br>1/2020</p> 
+         </div>
+        </div>
+        <div class="pic d-flex pt-3">
+          <a href="#"> <img src="img/viewAll/v-7.jpg" alt="" style="height:3rem;width:4rem"></a>
+          <div class="text">
+           <p class="text-light px-lg-3">New For Men<br>1/2020</p> 
+          </div>
+         </div>
+         <div class="pic d-flex pt-3">
+          <a href="#"> <img src="img/viewAll/man-2.jpg" alt="" style="height:3rem;width:4rem"></a>
+          <div class="text">
+           <p class="text-light px-lg-3">"Latest" Collection <br>1/2020</p> 
+          </div>
+         </div>
+</div>
+        <div class="col-lg-3 col-md-6 col-sm-6 mt-sm-4 mt-lg-0 col-sx">
+            <h6 class="text-light my-3">NEWSLATTER</h6>
+            <p class="text-light" style="width:77%;">We have some special just for you ! Enjoy our latest collection and discount !</p>
+            <div class="form" style="width: 11rem;">
+                <div class="input-group mt-4">
+                  <input type="text" class="form-control form-main" placeholder="Enter Your Email" 
+                  aria-label="Username" aria-describedby="basic-addon1" style="border-radius: 0;text-align: center;">
+              </div>
+              <div class=" sub-btn btn mt-3">Subscribe</div>
+            </div>
+        </div>
+       </div>
+     </div>
+   </section>
+<!---link-Section-End---------->
+<!----------------Js-link------------------------->
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script>
+  $(document).ready(function(){
+      AOS.init({
+            duration:800     
+      });
+  })
+</script>
+</body>
+</html>
